@@ -1,0 +1,210 @@
+$primary-color:white;
+$secondary-color:yellow;
+
+
+
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color:white;
+  color:black;
+  height:100%;
+  margin:0;
+  line-height: 1.5;
+
+  }
+
+
+
+.container1{
+  display:flex;
+  flex-direction:column;
+  border:1px #ccc solid;
+  margin:auto;
+  height:40vh;
+  width:80vw;
+
+  }
+
+.container2{
+    display:flex;
+    flex-direction: row;
+    border:1px #ccc solid;
+    margin:auto;
+    height:40vh;
+    width:80vw;
+  }
+
+
+.box1{
+  flex:1;
+  border:2px #ccc solid;
+  margin: 10px;
+}
+
+
+.box2{
+  flex:1;
+  border:2px #ccc solid;
+  background-image: url('WechatIMG3614.jpeg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  margin: 10px;
+
+  }
+
+
+.box3{
+  flex:1;
+  border:2px #ccc solid;
+  margin: 10px;
+
+}
+
+.box4{
+  flex:1;
+  border:2px #ccc solid;
+  margin: 10px;
+
+}
+
+nav{
+  display:flex;
+
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 4vh;
+  font-family: 'Poppins',sans-serif;
+
+  }
+
+
+.logo{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 16px;
+
+
+}
+
+
+
+.nav-link li{
+  list-style: none;
+}
+
+.nav-link{
+  display:flex;
+  justify-content:space-around;
+  width:20%;
+
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.burger{
+  display: none;
+}
+
+.burger div{
+  width:20px;
+  height:2px;
+  margin: 5px;
+  background-color: black;
+}
+
+
+
+
+
+
+.heading2{
+  margin:0px;
+  font-weight: 300;
+  font-size: 14px;
+  justify-content: center;
+  background-color: yellow;
+  height:6vh;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.heading2{
+  margin-bottom: 10px;
+}
+
+header{
+  position:fixed;
+}
+
+.text-secondary{
+  color:$secondary-color;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .nav-link{
+    position:absolute;
+    right:0px;
+    top:8vh;
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    align-items: center;
+    transform:translateX(100%);
+
+  }
+
+  .nav-link li{
+    opacity:0;
+  }
+
+  .burger{
+    display:block;
+    cursor:pointer;
+  }
+}
+
+  .nav-active{
+    transform: translateX(0%);
+  }
+
+  .container1,.container2{
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    height:40vh;
+  }
+
+
+
+
+@media screen and (max-width:375px){
+
+.container1,.container2{
+  display: flex;
+  flex-direction: column;
+  width:80vw;
+  height:40vh;
+}
+}
