@@ -19,13 +19,12 @@ body{
   }
 
 
-
 .container1{
   display:flex;
-  flex-direction:column;
-  border:1px #ccc solid;
+  flex-direction:row;
+
   margin:auto;
-  height:40vh;
+  height:45vh;
   width:80vw;
 
   }
@@ -33,7 +32,7 @@ body{
 .container2{
     display:flex;
     flex-direction: row;
-    border:1px #ccc solid;
+    
     margin:auto;
     height:40vh;
     width:80vw;
@@ -42,15 +41,18 @@ body{
 
 .box1{
   flex:1;
-  border:2px #ccc solid;
+
   margin: 10px;
+  background-image: url('agogos-1.jpg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
 }
 
 
 .box2{
   flex:1;
-  border:2px #ccc solid;
-  background-image: url('WechatIMG3614.jpeg');
+
+  background-image: url('museum-1.jpg');
   background-repeat: no-repeat;
   background-size:100% 100%;
   margin: 10px;
@@ -60,14 +62,14 @@ body{
 
 .box3{
   flex:1;
-  border:2px #ccc solid;
+
   margin: 10px;
 
 }
 
 .box4{
   flex:1;
-  border:2px #ccc solid;
+
   margin: 10px;
 
 }
@@ -130,7 +132,7 @@ nav{
   font-weight: 300;
   font-size: 14px;
   justify-content: center;
-  background-color: yellow;
+
   height:6vh;
   display: flex;
   align-items: center;
@@ -150,7 +152,6 @@ header{
   color:$secondary-color;
 
 }
-
 
 
 
@@ -183,7 +184,6 @@ header{
     display:block;
     cursor:pointer;
   }
-}
 
   .nav-active{
     transform: translateX(0%);
@@ -193,18 +193,6 @@ header{
     display: flex;
     flex-direction: column;
     width:80vw;
-    height:40vh;
+    height:90vh;
   }
-
-
-
-
-@media screen and (max-width:375px){
-
-.container1,.container2{
-  display: flex;
-  flex-direction: column;
-  width:80vw;
-  height:40vh;
-}
 }
