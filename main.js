@@ -45,3 +45,16 @@ box2.addEventListener('mouseout',function(event){
 }
 
 navSlide();
+
+document.querySelector(".box1").addEventListener("mouseover", mouseOver);
+document.querySelector(".box1").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.querySelector(".intro").style.display = "block";
+  // console.log("in");
+}
+
+function mouseOut() {
+  document.querySelector(".intro").style.display = "none";
+  // console.log("out");
+}
