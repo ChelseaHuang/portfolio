@@ -40,11 +40,14 @@ body {
 
 .box1 {
   flex: 1;
+  flex-wrap: wrap; /* to wrap the divs on smaller devices (mobile) */
   margin: 20px;
   background-image: url('agogos-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 /* .box1 background-image{
   opacity:1;
@@ -144,6 +147,14 @@ header {
 .intro{
   display: none;
   opacity: 1 !important;
+  position: relative;
+  padding-top: 35%;
+  left: 0;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  border: 0;
 }
 /* .intro {
   font-weight: lighter;
@@ -153,7 +164,7 @@ header {
   display: block;
   top: 40%;
   left: 0;
-  text-align: center;
+
   opacity: 0;
   z-index: 2;
 } */
