@@ -42,6 +42,7 @@ body {
   background-image: url('agogos-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 /* .box1 background-image{
@@ -165,7 +166,9 @@ a {
   justify-content: center;
   margin-top: 20px;
   color: black;
+
 }
+
 
 
 .hide {
