@@ -55,6 +55,7 @@ body {
 } */
 .box2 {
   flex: 1;
+  flex-wrap: wrap;
   background-size: cover;
   background-image: url('museum-1.jpg');
   background-repeat: no-repeat;
@@ -135,22 +136,40 @@ header {
   position: fixed;
 }
 
-.text-secondary {
-  color: $secondary-color;
+
+
+.intro{
+  display: none;
+  opacity: 1 !important;
+  position: relative;
+  padding-top: 20%;
+  left: 0;
+  height: 80%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  border: 0;
 }
 
-/* .intro {
-  font-weight: lighter;
-  font-style: 20px;
-  letter-spacing: .1em;
-  position: absolute;
-  display: block;
-  top: 40%;
+.description{
+  font-size: 24px;
+}
+
+.skills{
+  font-size: 20px;
+}
+.intro2{
+  display: none;
+  opacity: 1 !important;
+  position: relative;
+  padding-top: 15%;
   left: 0;
+  height: 80%;
   text-align: center;
-  opacity: 0;
-  z-index: 2;
-} */
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  border: 0;
+}
 
 .navbar {
   font-weight: bold;
