@@ -1,0 +1,168 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin: 10px;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  line-height: 25px;
+  text-align:justify;
+
+}
+
+body {
+  background-color: white;
+  color: black;
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 4vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 16px;
+}
+
+.nav-link li {
+  position: relative;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 20px;
+  height: 2px;
+  margin: 5px;
+  background-color: black;
+}
+
+
+.all{
+  padding-left: auto;
+  padding-right: auto;
+}
+
+
+/* .container1 {
+  width:800px;
+  position: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+} */
+
+.container{
+  width:1000px;
+  /* height:auto; */
+  position: inherit;
+  margin-top: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /* top:50%; */
+  /* transform: translate(-50%,-50%); */
+  text-align: center;
+
+}
+
+.container1{
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-right:100px;
+
+}
+
+/* .box1 {
+  display: flex;
+  flex-direction: row;
+  width:700px;
+  height: 500px;
+  margin: 20px;
+  background-image: url('storyboard.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+} */
+
+/* img{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+} */
+
+#personas{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+}
+
+#storyboard{
+  width:700px;
+  height:500px;
+
+}
+
+#wireframes{
+  width:350px;
+  height:250px;
+  padding: 10px;
+}
+
+span{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.fas{
+  font-size: 28px;
+}
+
+
+.video iframe{
+
+}
+
+@media screen and (max-width:768px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 90vh;
+  }

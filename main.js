@@ -20,34 +20,34 @@ const navSlide = () => {
 
 navSlide();
 
-document.querySelector(".box1").addEventListener("mouseover", mouseOver);
-document.querySelector(".box1").addEventListener("mouseout", mouseOut);
+document.querySelector(".box1").addEventListener("mouseover", mouseOver1);
+document.querySelector(".box1").addEventListener("mouseout", mouseOut1);
 
 
-function mouseOver() {
+function mouseOver1() {
   document.querySelector(".intro").style.display = "block";
   // console.log("in");
 }
 
-function mouseOut() {
+function mouseOut1() {
   document.querySelector(".intro").style.display = "none";
 }
 
+
+
+  document.querySelector(".box2").addEventListener("mouseover", mouseOver2);
+document.querySelector(".box2").addEventListener("mouseout", mouseOut2);
+
+function mouseOver2() {
+  document.querySelector(".intro2").style.display = "block";
+  // console.log("in");
+}
+
+function mouseOut2() {
+  document.querySelector(".intro2").style.display = "none";
   // console.log("out");
+}
 
-  // document.querySelector(".box2").addEventListener("mouseover", mouseOver);
-// document.querySelector(".box2").addEventListener("mouseout", mouseOut);
-//
-// function mouseOver() {
-//   document.querySelector(".intro2").style.display = "block";
-//   // console.log("in");
-// }
-//
-// function mouseOut() {
-//   document.querySelector(".intro2").style.display = "none";
-//   // console.log("out");
-// }
-
-navLink.forEach((link,index) => {
-  link.style.animation = 'navLinkFade 0.5s ease fowards ${index / 7}s';
-});
+// navLink.forEach((link,index) => {
+//   link.style.animation = 'navLinkFade 0.5s ease fowards ${index / 7}s';
+// });
