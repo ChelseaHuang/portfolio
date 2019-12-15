@@ -133,6 +133,9 @@ nav {
 
 }
 
+/* .cycle-slideshow{
+  min-height:30vh;
+} */
 
 .hide {
   display: none;
@@ -252,7 +255,10 @@ span{
     height: 90vh;
   }
 
-
+  #storyboard{
+    width: 80vw;
+    height: 40vh;
+  }
 
   iframe{
     width: 80vw;
