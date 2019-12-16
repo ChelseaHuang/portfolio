@@ -8,11 +8,25 @@
 
 
 h2{
-  font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
   letter-spacing: 1px;
   margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
+
+h3{
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
 
 a{
   text-decoration: none;
@@ -34,11 +48,13 @@ a:hover{
 }
 
 p{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Arvo', serif;
   font-size: 16px;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.8px;
   line-height: 25px;
+  font-weight: 300;
   text-align:justify;
+  color:#494949;
 
 }
 
@@ -126,10 +142,16 @@ nav {
 
 }
 
+li{
+  list-style: none;
+  justify-content:flex-start;
+
+}
+
 #box1{
   width:768px;
   position: inherit;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-left: auto;
   margin-right: auto;
   background-color: #efefef;
@@ -139,6 +161,13 @@ nav {
   padding-right:20px;
 }
 
+#box2{
+  width:768px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 
 .hide {
@@ -160,6 +189,12 @@ nav {
 
 
 }
+
+/* .cycle-slideshow{
+  width:768px;
+  height:250px;
+} */
+
 
 #prev, #next{
   width: 10px;
@@ -202,6 +237,14 @@ nav {
   background-size: cover;
 }
 
+#report{
+  width:730px;
+  height:300px;
+}
+
+/* #adv-custom-pager{
+  margin-top: -100px;
+} */
 
 span{
   font-weight: bold;
@@ -383,12 +426,23 @@ main{
 
   }
 
+  #box2{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height:auto;
+
+  }
+
   #storyboard{
     width: 80vw;
     height: 40vh;
   }
 
-
+  #report{
+    width: 80vw;
+    height: 20vh;
+  }
 
   iframe{
     width: 80vw;
