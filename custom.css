@@ -153,11 +153,28 @@ header {
 
 .description{
   font-size: 24px;
+  /* font-family: 'Poppins', sans-serif; */
+  letter-spacing: 1px;
+
+}
+
+.description2{
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
 }
 
 .skills{
   font-size: 20px;
+
 }
+
+#skill{
+  
+  text-transform: uppercase;
+
+}
+
 .intro2{
   display: none;
   opacity: 1 !important;

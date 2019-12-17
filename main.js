@@ -19,6 +19,8 @@ const navSlide = () => {
 
 navSlide();
 
+
+
 document.querySelector(".box1").addEventListener("mouseover", mouseOver1);
 document.querySelector(".box1").addEventListener("mouseout", mouseOut1);
 
@@ -46,6 +48,8 @@ function mouseOut2() {
   document.querySelector(".intro2").style.display = "none";
   // console.log("out");
 }
+
+
 
 // navLink.forEach((link,index) => {
 //   link.style.animation = 'navLinkFade 0.5s ease fowards ${index / 7}s';
