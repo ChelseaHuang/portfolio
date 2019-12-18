@@ -4,9 +4,11 @@ const navSlide = () => {
   const navLink = document.querySelectorAll('.nav-link li');
   const box1 = document.querySelector('.box1');
   const box2 = document.querySelector('.box2');
+  const box3 = document.querySelector('.box3');
   const intro = document.querySelector('.intro');
   const intro2 = document.querySelector('.intro2');
   const skills= document.querySelector('.skills');
+
 
 
   burger.addEventListener('click', () => {
@@ -49,6 +51,17 @@ function mouseOut2() {
   // console.log("out");
 }
 
+document.querySelector(".box3").addEventListener("mouseover", mouseOver3);
+document.querySelector(".box3").addEventListener("mouseout", mouseOut3);
+
+function mouseOver3() {
+document.querySelector(".intro3").style.display = "block";
+// console.log("in");
+}
+
+function mouseOut3() {
+document.querySelector(".intro3").style.display = "none";
+}
 
 
 // navLink.forEach((link,index) => {

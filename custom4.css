@@ -1,0 +1,145 @@
+ * {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+a {
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  color: black;
+
+}
+
+body {
+  background-color: white;
+  color: black;
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.navbar {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-left: 47%;
+  margin-top: 47%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 4vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 16px;
+}
+
+.nav-link li {
+  position: relative;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 20px;
+  height: 2px;
+  margin: 5px;
+  background-color: black;
+
+}
+
+#place{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position:absolute;
+  margin-left: -30px;
+  margin-top: 40px;
+  font-family: 'Merienda',sans-serif;
+  letter-spacing: 0;
+  font-size: 12px;
+
+
+}
+
+#place2{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position:absolute;
+  margin-left: -30px;
+  margin-top: 200px;
+  font-family: 'Merienda',sans-serif;
+  font-size: 12px;
+}
+
+#photos {
+  opacity: .88;
+}
+
+#photos img {
+  width: 30%;
+  /* height:20%; */
+  float: left;
+  display: block;
+  margin: 2px;
+  margin-bottom: 5px;
+  /* margin-left: 20px; */
+}
+
+ul {
+  list-style: none;
+  margin: 0px auto;
+  padding: 10px;
+  display: block;
+  max-width: 900px;
+  text-align: center;
+}
+
+#overlay {
+  background: rgba(0,0,0, .8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 550px;
+  border-radius: 5px;
+}
+
+#photos {
+  width: 100%;
+}
+
+#photo-gallery {
+  width: 100%;
+}

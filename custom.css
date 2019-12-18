@@ -68,6 +68,10 @@ body {
 
 .box3 {
   flex: 1;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-image: url('art3.jpeg');
+  background-repeat: no-repeat;
   margin: 20px;
 }
 
@@ -170,12 +174,25 @@ header {
 }
 
 #skill{
-  
+
   text-transform: uppercase;
 
 }
 
 .intro2{
+  display: none;
+  opacity: 1 !important;
+  position: relative;
+  padding-top: 20%;
+  left: 0;
+  height: 83%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  border: 0;
+}
+
+.intro3{
   display: none;
   opacity: 1 !important;
   position: relative;
