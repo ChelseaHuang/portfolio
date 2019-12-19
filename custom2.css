@@ -422,7 +422,6 @@ main{
     top: 27vw;
   }
 
-}
 
   body {
     overflow-x: hidden;
@@ -497,8 +496,9 @@ main{
     height: 40vh;
 
   }
+}
 
-  @media screen and (max-width:375px) {
+  /* @media screen and (min-width:375px) {
     .container1, .container2 {
       display: flex;
       flex-direction: column;
@@ -512,9 +512,9 @@ main{
       margin-right: 0;
     } */
 
-    #storyboard{
+    /* #storyboard{
       width: 80vw;
-      height: 30vh;
+      height: 50vh;
     }
 
     #report{
@@ -536,4 +536,4 @@ main{
       width: 80vw;
       height: 40vh;
 
-    }
+    }  */
