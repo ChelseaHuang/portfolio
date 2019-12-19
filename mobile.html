@@ -25,6 +25,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="https://malsup.github.com/jquery.cycle2.js"></script>
+<script src="http://malsup.github.io/jquery.cycle2.center.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.swipe.min.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
@@ -100,6 +102,8 @@
 
   <div class="cycle-slideshow"
     data-cycle-slides="nav2"
+    data-cycle-swipe=true
+    data-cycle-swipe-fx=scrollHorz
     data-cycle-timeout="0"
     data-cycle-prev="#prev"
     data-cycle-next="#next"
@@ -165,7 +169,7 @@
 
   <h2> Design </h2>
 <h3> Storyboard </h3>
-<img id="storyboard" src="storyboard.jpg" >
+<img id="storyboard" src="storyboard.JPG" >
 
 </div>
 
@@ -222,7 +226,8 @@ frameborder="0" allowfullscreen></iframe>
 <div id=adv-custom-pager class="center"></div>
      <div id="box2">
        <div class="cycle-slideshow"
-    data-cycle-fx=scrollHorz
+       data-cycle-swipe=true
+       data-cycle-swipe-fx=scrollHorz
     data-cycle-timeout=0
     data-cycle-pager="#adv-custom-pager"
     data-cycle-pager-template="<a href='#'><img src='{{src}}' width=20 height=20></a>"
