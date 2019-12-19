@@ -696,3 +696,12 @@ main{
     height: 40vh;
 
   }
+
+  @media screen and (max-width:375px) {
+    iframe{
+      width: 80vw;
+      height: 80vh;
+
+    }
+
+  }
