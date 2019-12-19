@@ -215,7 +215,7 @@ ul {
     overflow-x: hidden;
   }
 
-  .nav-link {
+  /* .nav-link {
     position: absolute;
     right: 0px;
     top: 8vh;
@@ -223,10 +223,9 @@ ul {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* background-color: yellow; */
     align-items: center;
     transform: translateX(100%);
-  }
+  } */
 
   .nav-link li {
     opacity: 0;
