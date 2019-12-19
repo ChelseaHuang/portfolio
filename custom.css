@@ -15,10 +15,8 @@ body {
   line-height: 1.5;
 }
 
-/* img { */
-  /* height: 50vh; */
-  /* width: 40vw; */
-/* } */
+
+
 
 .container1 {
   display: flex;
@@ -146,9 +144,9 @@ header {
   display: none;
   opacity: 1 !important;
   position: relative;
-  padding-top: 20%;
+  padding-top: 10%;
   left: 0;
-  height: 83%;
+  height: 90%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 0;
@@ -164,11 +162,11 @@ header {
 
 .description2{
   font-family: 'Arvo', serif;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 0.8px;
 }
 
-.skills{
+.skill{
   font-size: 20px;
 
 }
@@ -183,9 +181,9 @@ header {
   display: none;
   opacity: 1 !important;
   position: relative;
-  padding-top: 20%;
+  padding-top: 10%;
   left: 0;
-  height: 83%;
+  height: 90%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 0;
@@ -196,9 +194,9 @@ header {
   display: none;
   opacity: 1 !important;
   position: relative;
-  padding-top: 20%;
+  padding-top: 10%;
   left: 0;
-  height: 83%;
+  height: 90%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 0;

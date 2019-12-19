@@ -13,7 +13,7 @@ h2{
   font-size: 30px;
   letter-spacing: 1px;
   margin: 10px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -27,6 +27,15 @@ h3{
   font-weight: 400;
 }
 
+h5{
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
 
 a{
   text-decoration: none;
@@ -144,11 +153,29 @@ nav {
 
 }
 
+
+
+
+.profession{
+  text-align: left !important;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.graph{
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
 li{
   list-style: none;
   justify-content:flex-start;
 
 }
+
+
 
 #box1{
   width:768px;
@@ -165,20 +192,18 @@ li{
 
 #box2{
   width:768px;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 
 }
 
-
-.hide {
-  display: none;
+#box3{
+  margin-top: -120px;
 }
 
-.show {
-  display: block;
-}
+
+
 
 
 
@@ -192,11 +217,19 @@ li{
 
 }
 
+
+.youtube-video{
+  margin-top: 20px;
+}
 /* .cycle-slideshow{
   width:768px;
   height:250px;
 } */
 
+
+/* #adv-custom-pager{
+  margin-top: -30px;
+} */
 
 #prev, #next{
   width: 10px;
@@ -263,6 +296,17 @@ span{
 
 }
 
+.choice{
+  margin-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
 
 
 @import url(https://fonts.googleapis.com/css?family=Expletus+Sans:600);
@@ -380,9 +424,6 @@ main{
 
 }
 
-
-
-@media screen and (max-width:768px) {
   body {
     overflow-x: hidden;
   }
@@ -435,6 +476,10 @@ main{
     width: 80vw;
     height:auto;
 
+  }
+
+  #box3{
+    margin-top: -280px;
   }
 
   #storyboard{

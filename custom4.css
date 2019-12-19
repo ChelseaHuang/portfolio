@@ -5,14 +5,7 @@
 }
 
 
-a {
-  text-decoration: none;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 20px;
-  color: black;
 
-}
 
 body {
   background-color: white;
@@ -37,6 +30,9 @@ nav {
   box-sizing: border-box;
   min-height: 4vh;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .logo {
@@ -73,6 +69,24 @@ nav {
 
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  color: black;
+
+}
+
+
 #place{
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -96,12 +110,32 @@ nav {
   font-size: 12px;
 }
 
+#place3{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position:absolute;
+  margin-left: -30px;
+  margin-top: 430px;
+  font-family: 'Merienda',sans-serif;
+  font-size: 12px;
+}
+
+#place4{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position:absolute;
+  margin-left: -30px;
+  margin-top: 620px;
+  font-family: 'Merienda',sans-serif;
+  font-size: 12px;
+}
+
 #photos {
   opacity: .88;
 }
 
 #photos img {
-  width: 30%;
+  width: 32%;
   /* height:20%; */
   float: left;
   display: block;
@@ -138,8 +172,44 @@ ul {
 
 #photos {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 #photo-gallery {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+@media screen and (max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-link {
+    position: absolute;
+    right: 0px;
+    top: 8vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    align-items: center;
+    transform: translateX(100%);
+  }
+
+  .nav-link li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }

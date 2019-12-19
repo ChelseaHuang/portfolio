@@ -8,6 +8,8 @@ const navSlide = () => {
   const intro = document.querySelector('.intro');
   const intro2 = document.querySelector('.intro2');
   const skills= document.querySelector('.skills');
+  const navbar= document.querySelector('.navbar');
+
 
 
 
