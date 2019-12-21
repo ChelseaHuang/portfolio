@@ -697,7 +697,7 @@ main{
 
   }
 
-  @media screen and (max-width:375px) {
+  @media screen and (max-width:440px) {
     iframe{
       width: 80vw;
       height: 80vh;
