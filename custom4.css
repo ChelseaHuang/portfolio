@@ -100,9 +100,29 @@ a {
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
+  /* padding: 10px; */
   color: black;
-
 }
+
+
+.choice{
+  min-height: 4vh;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+a:hover{
+  color: grey;
+}
+
+.bottom{
+  padding: 10px;
+}
+
 .container{
 width:930px;
 position: inherit;
@@ -136,7 +156,7 @@ text-align: center;
   text-orientation: upright;
   position:absolute;
   margin-left: -30px;
-  margin-top: 200px;
+  margin-top: 210px;
   font-family: 'Merienda',sans-serif;
   font-size: 12px;
 }
