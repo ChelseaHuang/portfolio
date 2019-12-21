@@ -12,8 +12,9 @@
     <link href="https://fonts.google.com/specimen/Muli" rel="stylesheet">
     <link href="https://fonts.google.com/specimen/Open+Sans" rel="stylesheet">
     <link href="https://fonts.google.com/specimen/Arvo" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
   <title>Mobile</title>
@@ -24,21 +25,24 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
 
-
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
-
+<!-- <script src="http://malsup.github.com/jquery.cycle2.js"></script> -->
 <script src="https://malsup.github.com/jquery.cycle2.js"></script>
 
-<script src="http://malsup.github.com/jquery.cycle2.carousel.js"></script>
+<!-- <script src="https://malsup.github.io/jquery.cycle2.center.js"></script> -->
+<script src="https://malsup.github.io/jquery.cycle2.center.js"></script>
 
-
+<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.swipe.min.js">
+</script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.swipe.min.js">
 
 </script>
+<script src="path/to/your/copy/of/jquery.cycle2.carousel.js"></script>
 
-
-
+<!-- <script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"></script> -->
 
 
 <script
@@ -95,7 +99,7 @@
 
 
 
-<div class="container">
+<div class="container2">
 
 
 
@@ -116,8 +120,57 @@
 
   <h3> Learner Personas </h3>
 <div id="box1">
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img id="personas" src="Jessica.jpeg">
+        <p><center><i class="fas fa-quote-left"></i> <span> Jessica </span><i class="fas fa-quote-right"></i></center></p>
+        <p> Jessica just celebrated her 23rd birthday and is about to finish her last semester in the Masters program in Instructional Design at Teachers College. She landed an internship that coincides with her Integrative Project perfectly: a project lead in the Training and Development department of Company X. One of the major goals of the role will be to update existing eLearning courses to make them look and feel more current, both visually and content-wise. Specifically, Jessica is tasked to begin with a redesign their “WHY STEM?” course which aims to promote students to enter the STEM field. Although Jessica is confident that she can bring new ideas into this redesign, she is concerned that she will meet resistance from long time employees and/or trainers. Jessica has the educational theory background but she lacks exposure to Articulate and other relevant software, so she is unsure of what kind of design will be best accepted. Jessica wants to make the course look relevant and appealing to her audience through visual and interactive design while making her supervisor happy but she isn’t sure of best practices and she wants to make a good impression (of course!). Jessica is hoping to find an app where she can show the process of her thoughts to her supervisor in a clear way. She learns about Agogos from some of her classmates, who have just released a beta version into the market. </p>
+
+      </div>
+
+      <div class="item">
+        <img id="personas" src="Susan.jpeg">
+        <p><center><i class="fas fa-quote-left"></i> <span> Susan </span> <i class="fas fa-quote-right"></i></center></p>
+        <p>Susan is the Learning & Development is an HR department manager. She is a 35 year-old woman who has worked there for 12 years, creating the same power point presentation for onboarding new employees. Over the years, she realizes that the use of technology and eLearning is important to her work and is being pressured by higher management to incorporate technology into their training. With all of her years of experience, she wants to incorporate eLearning into the HR department’s onboarding session to make the process smoother and more engaging to new employees. Susan is not tech savvy but she knows all of the information that is needed. Susan has not had formal training in using Articulate 360 and has obtained all of her knowledge through attending conferences and doing self tutorials. She knows the basics of it and can create simple courses but they look like a PowerPoint slide with simple layer triggers. Susan attended a workshop and was intrigued by the notion of being able to incorporate game mechanics into courses, such as creating a dashboard where students can check on the progress of their onboarding training within the course without having to exit to the main menu. She realizes that there are probably many more tools in the program of which she is unaware, so she is looking for an app to help her fast track her skills and knowledge.</p>
 
 
+    </div>
+
+
+      <div class="item">
+        <img id="personas" src="Ben.jpeg">
+        <p><center><i class="fas fa-quote-left"></i> <span> Ben </span> <i class="fas fa-quote-right"></i></center></p>
+        <p>Ben, an itinerant 27 year-old Marketing coordinator who has been task with the sales department to work out an eLearning course on customer relations. Ben arrives at the office, grabs a coffee to start his day and once he reaches his office, he sees the pile of disorganized, outdated and confusing information in a PowerPoint deck from the sales manager. He is confused and overwhelmed with all the information. Ben was asked by his manager to lead the work in creating an effective eLearning course for the entire sales team. Ben’s manager also asked him to create a document that can be shared with other developers and receive feedback before he starts developing anything. Ben is curious and passionate about the information but likes to try to figure things out before reaching out to others because he is afraid of looking like he does not know what he is doing. Even though he knows how to use the tools to develop the courses, he does not know how to get started. He is having trouble with how to put his ideas down so that it can be understood by colleagues in the company. Ben is looking for an app that provides a basic standard procedure on how to create an eLearning design document and/or storyboard.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+        </div>
+        </div>
+
+<!--
   <div class="cycle-slideshow"
     data-cycle-slides="nav2"
     data-cycle-swipe=true
@@ -168,7 +221,7 @@
 
 </div>
 
-</div><br>
+</div><br> -->
 
 
 
@@ -241,7 +294,47 @@ frameborder="0" allowfullscreen></iframe>
 
 <p class="graph"><b>Report Graphs  </b></p>
 
-<div id=adv-custom-pager class="center"></div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="report1.jpeg" alt="Los Angeles" style="width:80%;">
+      </div>
+
+      <div class="item">
+        <img src="report2.jpeg" alt="Chicago" style="width:80%;">
+      </div>
+
+      <div class="item">
+        <img src="report3.jpeg" alt="New york" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="report4.jpeg" alt="report4" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+<!-- <div id=adv-custom-pager class="center"></div>
      <div id="box2">
        <div class="cycle-slideshow"
        data-cycle-swipe=true
@@ -256,7 +349,7 @@ frameborder="0" allowfullscreen></iframe>
       <img id="report" src="report2.jpeg">
       <img id="report" src="report3.jpeg">
       <img id="report" src="report4.jpeg">
-</div>
+</div> -->
 <!-- empty element for pager links -->
 
 
