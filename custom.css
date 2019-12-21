@@ -177,6 +177,10 @@ header {
 
 }
 
+#copyright{
+  color: gray;
+}
+
 .intro2{
   display: none;
   opacity: 1 !important;
@@ -273,7 +277,10 @@ a {
     width: 80vw;
     height: 90vh;
   }
-
+/* 
+  #id{
+    margin-top: -300px;
+  } */
   /* .hide {
     display: none;
   }
