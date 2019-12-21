@@ -76,6 +76,11 @@ body {
 .box4 {
   flex: 1;
   margin: 20px;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-image: url('investment2.jpeg');
+  background-repeat: no-repeat;
+
 }
 
 nav {
@@ -146,7 +151,7 @@ header {
   position: relative;
   padding-top: 10%;
   left: 0;
-  height: 90%;
+  height: 92%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 0;
@@ -177,8 +182,8 @@ header {
 
 }
 
-#copyright{
-  color: gray;
+.copyright{
+color: grey;
 }
 
 .intro2{
@@ -187,7 +192,7 @@ header {
   position: relative;
   padding-top: 10%;
   left: 0;
-  height: 90%;
+  height: 92%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 0;
@@ -200,7 +205,20 @@ header {
   position: relative;
   padding-top: 10%;
   left: 0;
-  height: 90%;
+  height: 92%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  border: 0;
+}
+
+.intro4{
+  display: none;
+  opacity: 1 !important;
+  position: relative;
+  padding-top: 10%;
+  left: 0;
+  height: 92%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 0;
@@ -277,7 +295,7 @@ a {
     width: 80vw;
     height: 90vh;
   }
-/* 
+/*
   #id{
     margin-top: -300px;
   } */

@@ -26,6 +26,13 @@ h2{
   font-weight: 400;
 }
 
+.producer{
+  /* font-family: 'Satisfy',cursive; */
+  font-size: 18px;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
 .navbar {
   font-weight: bold;
   font-size: 16px;
