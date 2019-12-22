@@ -43,14 +43,7 @@ body {
 
 }
 
-/* .box1 background-image{
-  opacity:1;
-  -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-} */
-/* .box1 :hover background-image{
-  opacity: .5;
-} */
+
 .box2 {
   flex: 1;
   flex-wrap: wrap;
@@ -60,9 +53,6 @@ body {
   margin: 20px;
 }
 
-/* img:hover { */
-  /* opacity: .35; */
-/* } */
 
 .box3 {
   flex: 1;

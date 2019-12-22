@@ -38,38 +38,7 @@ h5{
   font-weight: 400;
 }
 
-/*
-.audience{
-  font-family: 'Arvo', serif !important;
-  font-size: 16px;
-  letter-spacing: 0.8px;
-  line-height: 25px;
-  font-weight: 300;
-  color:#494949;
-} */
-/*
-.audience li{
-    list-style:initial !important;
-    justify-content: flex-start !important;
-    font-family: 'Arvo', serif !important;
-    font-size: 16px;
-    letter-spacing: 0.8px;
-    line-height: 25px;
-    font-weight: 300;
 
-} */
-
-/* ol{
-  font-family: 'Arvo', serif !important;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  line-height: 25px;
-  font-weight: 300;
-  color:#494949;
-  justify-content:flex-start;
-  margin-left: 20px;
-
-} */
 
 ul{
   font-family: 'Arvo', serif ;
@@ -83,9 +52,7 @@ ul{
 
 }
 
-/* ul li{
-    justify-content:flex-start;
-} */
+
 
 a{
   text-decoration: none !important;
@@ -222,11 +189,7 @@ nav {
 }
 
 
-/* li{
-  list-style: none;
-  justify-content:flex-start;
 
-} */
 
 
 
@@ -279,15 +242,7 @@ nav {
 .youtube-video{
   margin-top: 20px;
 }
-/* .cycle-slideshow{
-  width:768px;
-  height:250px;
-} */
 
-
-/* #adv-custom-pager{
-  margin-top: -30px;
-} */
 
 #prev, #next{
   width: 10px;
@@ -507,7 +462,11 @@ main{
     height: 90vh;
   }
 
+  .carousel-inner img{
+    margin-left: auto;
+    margin-right: auto;
 
+  }
 
   #box1{
     display: flex;
