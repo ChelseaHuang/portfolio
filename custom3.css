@@ -600,7 +600,7 @@ main{
 }
 
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hero{
     height: 50vw;
   }
@@ -660,10 +660,10 @@ main{
     flex-direction: column;
     width: 80vw;
 
+
   }
   #teachers{
-    width: 70vw;
-    height: 25vh;
+    display: none;
   }
 
   #storyboard{

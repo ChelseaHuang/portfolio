@@ -436,6 +436,7 @@ main{
   }
 
 
+
   body {
     overflow-x: hidden;
   }
@@ -462,11 +463,7 @@ main{
     height: 90vh;
   }
 
-  .carousel-inner img{
-    margin-left: auto;
-    margin-right: auto;
 
-  }
 
   #box1{
     display: flex;
@@ -490,6 +487,15 @@ main{
   #storyboard{
     width: 80vw;
     height: 40vh;
+  }
+
+  #wireframes{
+    width: 80vw;
+    height:35vh;
+    padding-left: 0;
+    padding-right: 0;
+
+
   }
 
   #Jessica{
@@ -517,7 +523,7 @@ main{
   }
 }
 
-@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .hero{
     height: 50vw;
   }
@@ -601,7 +607,7 @@ main{
   .future{
     margin-top: -20px;
   }
-}
+} */
 
   /* @media screen and (min-width:375px) {
     .container1, .container2 {

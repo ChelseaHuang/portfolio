@@ -253,18 +253,7 @@ a {
     overflow-x: hidden;
   }
 
-  /* .nav-link {
-    position: absolute;
-    right: 0px;
-    top: 8vh;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* background-color: yellow; */
-    /* align-items: center;
-    transform: translateX(100%);
-  }  */
+
 
   .nav-link li {
     opacity: 0;
@@ -285,23 +274,7 @@ a {
     width: 80vw;
     height: 90vh;
   }
-/*
-  #id{
-    margin-top: -300px;
-  } */
-  /* .hide {
-    display: none;
-  }
-.hidden{
-  visibility: hidden !important;
-}
-  .show {
-    display: block;
-  }
-  .opacity{
-    opacity: .3;
-    background-color: #fff;
-  } */
+
 
   @media screen and (max-width:440px) {
     .container1, .container2 {
