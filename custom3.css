@@ -132,7 +132,10 @@ nav {
   background-color: black;
 }
 
-
+.prototype1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .container{
   width:768px;
@@ -218,7 +221,8 @@ nav {
 }
 
 
-.video iframe{
+iframe{
+  margin-top: 20px;
 
 }
 
@@ -680,12 +684,25 @@ main{
     display: block;
   }
 
+  .market{
+    width: 80vw;
+    height: 40vh;
+  }
+
   .teachers{
     display: block;
     width: 70vw;
     height: 25vh;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .evaluation{
+    display: none;
+  }
+  .prototype1{
+    width: 80vw;
+
   }
 
   #teachers{
@@ -718,6 +735,11 @@ main{
       width: 80vw;
       height: 80vh;
 
+    }
+
+    .market{
+      width: 80vw;
+      height: 30vh;
     }
 
   }
