@@ -118,15 +118,15 @@ nav {
 .heading2 {
   margin: 0px;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 15px;
   justify-content: center;
   height: 6vh;
   display: flex;
   align-items: center;
-}
-
-.heading2 {
   margin-bottom: 10px;
+  font-family:'Courgette',serif !important;
+
+
 }
 
 header {
